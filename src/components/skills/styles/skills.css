@@ -91,8 +91,8 @@
   color: #ffe593;
 }
 
-.draw-border:hover::before,
-.draw-border:hover::after {
+.card-skill:hover .draw-border::before,
+.card-skill:hover .draw-border::after {
   border-color: #eb196e;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
@@ -100,12 +100,12 @@
   height: 100%;
 }
 
-.draw-border:hover::before {
+.card-skill:hover .draw-border::before {
   -webkit-transition-delay: 0s, 0s, 0.25s;
   transition-delay: 0s, 0s, 0.25s;
 }
 
-.draw-border:hover::after {
+.card-skill:hover .draw-border::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
   transition-delay: 0s, 0.25s, 0s;
 }
